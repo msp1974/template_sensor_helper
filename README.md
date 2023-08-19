@@ -36,6 +36,9 @@ This is currently a beta version and it should be expected that there maybe some
 
 1. No icon in helper selector and in helper entity list
 2. Planning improvements in descriptions for each step in wizard
+3. Doesn't yet support adding attributes
+4. Doesn't yet support availability templates
+5. Doesn't yet support trigger based sensors
 
 ## Overview Videos
 
