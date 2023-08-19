@@ -1,0 +1,115 @@
+{
+    "title": "Template Sensor",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Add Template Sensor",
+                "description": "Create a sensor based on a template via UI.",
+                "data": {
+                    "name": "Name",
+                    "entity_id": "Entity",
+                    "state": "State"
+                },
+                "data_description": {
+                    "name": "Unique name of the template sensor.",
+                    "entity_id": "Entity id of sensor to trigger updates.",
+                    "state": "Template to define state of this sensor."
+                }
+            },
+            "device_class": {
+                "data": {
+                    "device_class": "Device class"
+                },
+                "data_description": {
+                    "device_class": "The type of device for this sensor."
+                }
+            },
+            "state_class": {
+                "data": {
+                    "state_class": "State class"
+                },
+                "data_description": {
+                    "state_class": "The type of state for this sensor."
+                }
+            },
+            "template": {
+                "data": {
+                    "unit_of_measurement": "Unit of measurement",
+                    "state": "State template"
+                },
+                "data_description": {
+                    "unit_of_measurement": "The unit of measurement for this sensor.",
+                    "state": "Template defining the value of the sensor."
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Template Sensor Options",
+                "description": "Select the parameter to amend",
+                "menu_options": {
+                    "device_class": "Device class",
+                    "state_class": "State class",
+                    "unit_of_measurement": "Unit of measurement",
+                    "value_template": "Value Template",
+                    "icon": "Icon Template"
+                }
+            },
+            "device_class": {
+                "data": {
+                    "device_class": "Device class"
+                },
+                "data_description": {
+                    "device_class": "Device class for the template sensor."
+                }
+            },
+            "state_class": {
+                "data": {
+                    "state_class": "State class"
+                },
+                "data_description": {
+                    "state_class": "Device state class for the template sensor."
+                }
+            },
+            "unit_of_measurement": {
+                "data": {
+                    "unit_of_measurement": "Unit of measure"
+                },
+                "data_description": {
+                    "unit_of_measurement": "The unit of measure for the template value."
+                }
+            },
+            "icon": {
+                "data": {
+                    "icon_type": "Icon type"
+                }
+            },
+            "value_template": {
+                "data": {
+                    "state": "State"
+                },
+                "data_description": {
+                    "state": "Sensor state template."
+                }
+            }
+        }
+    },
+    "selector": {
+        "sensor_type": {
+            "options": {
+                "binary_sensor": "Binary Sensor",
+                "sensor": "Sensor"
+            }
+        },
+        "state_class": {
+            "options": {
+                "none": "None",
+                "measurement": "Measurement",
+                "total": "Total",
+                "total_increasing": "Total Increasing"
+            }
+        }
+    }
+}

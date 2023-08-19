@@ -1,0 +1,14 @@
+{
+  "domain": "template_sensor",
+  "name": "Template Sensor",
+  "config_flow": true,
+  "documentation": "https://github.com/github_user/template_sensor",
+  "integration_type": "helper",
+  "iot_class": "local_push",
+  "version": "v1.0.0",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [
+    "@github_user"
+  ]
+}
