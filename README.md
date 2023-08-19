@@ -35,6 +35,6 @@ https://github.com/msp1974/template_sensor_helper/issues
 
 ## Overview Videos
 
-![Binary Sensor](https://github.com/msp1974/template_sensor_helper/docs/binary_template_sensor.gif)
+![Binary Sensor](https://github.com/msp1974/template_sensor_helper/blob/main/docs/binary_template_sensor.gif)
 
 ![Sensor](https://github.com/msp1974/template_sensor_helper/docs/template_sensor.gif)
