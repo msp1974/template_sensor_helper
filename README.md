@@ -26,12 +26,16 @@ You should then be able to download this via the usual HACs install method.
 
 This helper currently supports creating Binary Sensors and Sensors using templates.  It will guide you through the different elements of creating a sensor via a UI wizard and also allow you to edit all relevant parameters once created.
 
-
 ## Issues
 
 This is currently a beta version and it should be expected that there maybe some issues.  Please feel free to raise these (and any suggested improvements) on the github repo.
 
-https://github.com/msp1974/template_sensor_helper/issues
+[https://github.com/msp1974/template_sensor_helper/issues](https://github.com/msp1974/template_sensor_helper/issues)
+
+### Current Known Issues
+
+1. No icon in helper selector and in helper entity list
+2. Planning improvements in descriptions for each step in wizard
 
 ## Overview Videos
 
